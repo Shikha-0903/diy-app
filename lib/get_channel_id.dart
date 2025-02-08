@@ -1,8 +1,9 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import "constants.dart";
 
 void main() async {
-  final apiKey = 'AIzaSyA8blvcii6-hg1SufDHKUWUQGuETTn3PZQ'; // Replace with your actual API key
+  final apiKey = api_key; // Replace with your actual API key
   final query = 'glitterscreations731'; // Replace with the YouTube username or handle
 
   final url = 'https://www.googleapis.com/youtube/v3/search?part=snippet&type=channel&q=$query&key=$apiKey';
