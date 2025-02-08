@@ -1,0 +1,97 @@
+name: shikha_tycs
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.0
+  lottie: ^3.1.2
+  animated_splash_screen: ^1.3.0
+  smooth_page_indicator: ^1.2.0
+  http: ^1.2.2
+  url_launcher: ^6.3.0
+  youtube_player_flutter: ^9.1.1
+  image_picker: ^1.1.2
+  shared_preferences: ^2.3.2
+  firebase_storage: ^12.3.1
+  firebase_core: ^3.4.0
+  video_player: ^2.9.2
+  chewie: ^1.8.5
+  animated_text_kit: ^4.2.2
+  flutter_dotenv: ^5.2.1
+
+
+  #cached_network_image: ^3.3.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+
+  flutter_lints: ^4.0.0
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/splash.jpg"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+     - animations/Animation - 1718900860691.json
+     - animations/a1.json
+     - animations/spider.json
+     - animations/page1.json
+     - animations/girl.json
+     - animations/girly.json
+     - animations/explore.json
+     - animations/ani1.json
+     - animations/ani2.json
+     - animations/ani3.json
+     - animations/ani4.json
+     - animations/ani5.json
+     - animations/home.json
+     - animations/origami.json
+     - animations/accessories.json
+     - animations/waste.json
+     - images/login.jpg
+     - images/splash.jpg
+     - images/accessories.jpg
+     - images/home.png
+     - images/waste_to_use.png
+     - images/craft.jpg
+     - images/fs.png
+     - images/img.png
+     - assets/.env
+
+  fonts:
+    - family: Almendra
+      fonts:
+        - asset: fonts/Almendra-Regular.ttf
+
+    - family: StardosStencil
+      fonts:
+        - asset: fonts/StardosStencil-Regular.ttf
+
+    - family: DancingScript
+      fonts:
+        - asset: fonts/DancingScript-Regular.ttf
+
+    - family: Anton
+      fonts:
+        - asset: fonts/Anton-Regular.ttf
+
+    - family: NotoSerif
+      fonts:
+        - asset: fonts/NotoSerif_ExtraCondensed-Light.ttf
