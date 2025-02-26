@@ -40,13 +40,23 @@ To run this project, you need:
 3. **Enable** it.
 4. Get your **API Key** in the **Credentials section**.
 
+🔗 [Get YouTube API Key Here](https://console.cloud.google.com/apis/library/youtube.googleapis.com)
+
 ---
 
 ## 📸 Screenshots
 
-| Splash Screen                      | Home Page                            | DIY Categories                           |
-|------------------------------------|--------------------------------------|------------------------------------------|
+| Splash Screen | Home Page | DIY Categories |
+|--------------|----------|---------------|
 | ![Splash](screenshots/splash.jpeg) | ![Home](screenshots/homescreen.jpeg) | ![Categories](screenshots/category.jpeg) |
+
+| Search Screen | Profile Page | Wishlist |
+|--------------|------------|----------|
+| ![Search](screenshots/search.jpeg) | ![Profile](screenshots/profile.jpeg) | ![Wishlist](screenshots/wishlist.jpeg) |
+
+| Add Yours | My Videos | Video Page |
+|--------------|------------|----------|
+| ![Add](screenshots/add%20yours.jpeg) | ![My Videos](screenshots/myvideo.jpeg) | ![Video](screenshots/video.jpeg) |
 
 ---
 
