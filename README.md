@@ -44,9 +44,9 @@ To run this project, you need:
 
 ## 📸 Screenshots
 
-| Splash Screen                      | Home Page                      | DIY Categories                           |
-|------------------------------------|--------------------------------|------------------------------------------|
-| ![Splash](screenshots/splash.jpeg) | ![Home](screenshots/home.jpeg) | ![Categories](screenshots/category.jpeg) |
+| Splash Screen                      | Home Page                            | DIY Categories                           |
+|------------------------------------|--------------------------------------|------------------------------------------|
+| ![Splash](screenshots/splash.jpeg) | ![Home](screenshots/homescreen.jpeg) | ![Categories](screenshots/category.jpeg) |
 
 ---
 
