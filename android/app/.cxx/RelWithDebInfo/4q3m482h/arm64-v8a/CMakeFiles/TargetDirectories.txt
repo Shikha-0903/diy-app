@@ -1,0 +1,2 @@
+C:/shikha/projects/shikha_tycs/android/app/.cxx/RelWithDebInfo/4q3m482h/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/shikha/projects/shikha_tycs/android/app/.cxx/RelWithDebInfo/4q3m482h/arm64-v8a/CMakeFiles/rebuild_cache.dir

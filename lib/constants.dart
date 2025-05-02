@@ -3,7 +3,7 @@ import "package:cloud_firestore/cloud_firestore.dart";
 import 'package:firebase_auth/firebase_auth.dart';
 import "package:flutter_dotenv/flutter_dotenv.dart";
 
-final api_key = dotenv.env['API_KEY'];
+final api_key = dotenv.env['API_KEY']!;
 final String userId = FirebaseAuth.instance.currentUser!.uid;
 
 const List<String> channelIds = [
@@ -28,14 +28,12 @@ const List<String> channelIds = [
   "UCEA2_fLyEwmDKeP8nFikMrA",
   "UC69c-jtTf0VU0tRdOLij1tg",
   "UCXylA9BrLQzaqCR0wNH_nwQ",
-  "UCXaty-UbYsd8CR3mItUIpIw",
   "UC0fF9AKJ8xgI0AQB_i7OvTw",
   "UC9u7_jC9-dy9wDFcXkcc5GQ",
   "UCiaDfAYFMd2FrLjVukWbL-A",
   "UCrTphLe4-fZY3_jExXwvDaw",
   "UChgART3StWu3imxW_-OSCfQ",
   "UCmuNRTEvjlIsWYtA_D9N6hg",
-  "UC0CH_H6YH2IOx7geHVegdJA",
   "UC37eSSOTbmkK2wGqBR1jNxQ",
   "UC8cotMFR6rXJG1qm9UGA-UA",
   "UCvWOCCXfnLPEINvIbCwB-8Q",

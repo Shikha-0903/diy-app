@@ -26,6 +26,7 @@ class _SearchScreenState extends State<SearchScreen> {
     }
 
     final apiKey = api_key;
+    print("Api key:$apiKey");
     setState(() {
       _isLoading = true;
       _errorMessage = null;
@@ -39,6 +40,8 @@ class _SearchScreenState extends State<SearchScreen> {
         final url = 'https://www.googleapis.com/youtube/v3/search?part=id,snippet&q=$query&type=video&channelId=$channelId&key=$apiKey&maxResults=10';
 
         final response = await http.get(Uri.parse(url));
+        print(response.body);
+        print(url);
 
         if (response.statusCode == 200) {
           final jsonData = jsonDecode(response.body);
